@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [login]">
+  <test thread-count="5" name="ValidLogin(failed)">
+    <classes>
+      <class name="testcases.LoginWithValidDatausingExcel">
+        <methods>
+          <include name="AdminLogin"/>
+          <include name="closeApp"/>
+          <include name="LaunchStart"/>
+        </methods>
+      </class> <!-- testcases.LoginWithValidDatausingExcel -->
+    </classes>
+  </test> <!-- ValidLogin(failed) -->
+</suite> <!-- Failed suite [login] -->

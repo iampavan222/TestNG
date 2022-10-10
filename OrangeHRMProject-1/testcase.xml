@@ -1,0 +1,12 @@
+<suite name="login">
+<!--
+<parameter name="uid" value="Admin"/>
+<parameter name="pwd" value="Qedge123!@#"/> 
+-->
+   <test name ="ValidLogin">
+    <classes>
+        <class name="testcases.LoginWithValidDatausingExcel">
+        </class>
+     </classes>
+   </test>
+</suite>
